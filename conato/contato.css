@@ -1,0 +1,122 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* menu principal*/
+main .container {
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 480px  3fr;
+    grid-auto-rows: minmax(60px, auto);
+    
+}
+main .container .entrada {
+    grid-column: 1/4;
+    grid-row: 1/8;
+    
+}
+main .container .alo {    
+    background-image: url(img-omma/alo.png);
+    height: 58vh;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+}
+main .container .alo p {
+    color: white;
+    font-size: 3.8em;
+    font-weight: bold;
+    margin: 0px 11%;
+    padding: 4% 0px;
+    line-height: 1.1em;
+}
+main .container .contato {
+    grid-column: 1/2;
+    margin: 80px 80px;
+}
+main .container .contato div {
+    height: 750px;   
+    
+}
+main .container .contato div img {
+    width: 400px;
+    height: 750px;
+    border-radius: 14px;
+}
+main .container .formulario {
+    grid-column: 2/2;
+    margin: 80px 50px;
+}
+
+main .container .formulario form {
+    width: 95%;
+    height: 750px;
+    border: 2px solid #FFA000;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+main .container .formulario form h1 {
+    text-align: left;
+    text-indent: 4%;
+}
+main .container .formulario form .nome {
+    width: 80%;
+    height: 48px;
+    border: 2px solid #FFA000;
+    margin: 30px;
+    text-indent: 4%;
+}
+main .container .formulario form .email {
+    width: 80%;
+    height: 48px;
+    border: 2px solid #FFA000;
+    margin: 30px;
+    text-indent: 4%;
+
+}
+main .container .formulario form .mensagem {
+    width: 80%;
+    height: 293px;
+    border: 2px solid #FFA000;
+    margin: 30px;
+    text-indent: 4%;
+
+}
+main .container .formulario form p {
+    background-color: #FFA000;
+    width: 130px;
+    height: 58px;
+    font-size: 1.4em;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 80px;
+    margin: 20px 30px;
+}
+
+
+/*media query */
+
+@media (max-width: 840px) {
+    main .container .alo {
+        width: 97%;
+    }
+    main .container .contato {
+        grid-column: 1/4;
+        margin: 0px 0px;
+        display: flex;
+        justify-content: center;
+    }
+    main .container .formulario {
+        /* para quebrar linha para baixo*/
+        grid-column: 1/4;
+        grid-row: 9/auto;
+    }
+
+}
+

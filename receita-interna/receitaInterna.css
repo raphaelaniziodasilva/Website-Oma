@@ -1,0 +1,103 @@
+
+/* Menu principal */
+/* receita interna --> menu principal*/
+main {
+    max-width: 100%;
+}
+main article {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+main section {
+    max-width: 700px;
+    min-width: 350px;
+}
+main article h1 {
+    font-size: xx-large;
+    color: #FFA000;
+    padding: 50px 35px 0px;
+}
+main article section #risoto {
+    max-width: 30rem;
+    height: 330px;
+    margin: 30px;
+}
+main article section #risoto img {
+    max-width: 100%;
+    height: 80%;
+    margin-bottom: 7px;
+}
+main article section #risoto .facil {
+    width: 80px;
+    height: 20px;
+    border: 1px solid green;
+    border-radius: 8px;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+    margin: 5px 0px;
+    
+}
+main article section #risoto p {
+    width: 150px;
+    height: 20px;
+    border: 1px solid green;
+    border-radius: 8px;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+}
+main article section .Ingredientes  {
+    padding: 0px 33px;
+   
+}
+main article section .video {
+    min-width: 320px;
+    padding: 0px 33px;
+    
+}
+main article section .video iframe {
+    max-width: 100%;
+    padding: 5px 0px;
+}
+main article section .ModoDePreparo {
+    min-width: 330px;
+    padding: 24px;   
+    text-align: justify;
+    margin-bottom: 50px;
+}
+main article section .ModoDePreparo p{
+    padding: 20px 0px;
+}
+
+main article section h2 {
+    padding: 120px 0px 20px ;
+    font-size: xx-large;
+    color: #FFA000;
+}
+main article .ReceitasRelacionadas {
+    max-width: 30rem;
+    height: 330px;
+    margin: 50px 0px;
+       
+}
+main article .ReceitasRelacionadas img {
+    min-width: 100%;
+    height: 98%;
+   
+    
+}
+main article .ReceitasRelacionadas p {
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+}
+main article section a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+

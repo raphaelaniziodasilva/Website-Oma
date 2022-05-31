@@ -1,0 +1,138 @@
+
+/* margin e padding global */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*Cabeçalho */
+header {
+    background-color: #FFC107;
+    padding: 10px;
+}
+header div {   
+    height: 95px;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+}
+header div img {
+    min-width: 37%;
+}
+
+/* Menu */
+nav {
+    background-color: #FFA000;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: -1px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.8em;
+    padding: 0px 20px;
+}
+
+/* Menu principal */
+main .afeto div {
+    min-height: 77vh;
+    background-image: url(img-omma/header.png);
+    background-position: top  center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+main .afeto div p {
+    color: black;
+    font-size: 3.8em;
+    font-weight: bold;
+    line-height: 66px;
+    padding: 110px;
+}
+main h1 {
+    text-align: center;
+    font-size: 3.6em;
+    color: #FFA000;
+    margin: 34px 0px;
+}
+main .receitas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+main .receitas div {
+    width: 345px;
+    height: 342px;
+    margin-bottom: 95px;
+    box-shadow: 1px 0px 3px black;
+    
+}
+main .receitas div img {
+    width: 342px;
+    height: 100%;
+}
+main .receitas div .comida {
+    font-size: larger;
+    font-weight: bolder;  
+    text-align: center; 
+    
+}
+main .receitas div .conferir {
+    background-color: green;
+    width: 100px;
+    height: 28px;
+    color: white;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .receitas div a {
+    text-decoration: none;
+    color: black;
+}
+main .viver {
+    min-height: 77vh;
+    background-image: url(img-omma/footer.png);
+    background-position:  center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 80px 40px;
+    
+}
+
+main .viver h3 {
+    color: white;
+    font-size: 3.8em;
+    font-weight: bold;
+}
+main .viver p {
+    color: white;
+    max-width: 395px;
+    min-width: 250px;
+    font-size: 1.4em;
+    text-align: center;
+    padding: 20px;
+}
+
+/*Rodapé */
+footer {
+    background-color: #FFC107;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 18px;
+}
+footer img {
+    max-width: 50%;
+}
+footer p {
+    color: white;
+}
+ 
